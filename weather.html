@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="css/main.css" />
+  
+</head>
+<body>
+  <div class="app-wrap">
+    <ul>
+      <li><a class="active" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="350" height="15" fill="currentColor" class="bi bi-arrow-left-circle-fill" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm3.5 7.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
+      </svg></a></li>
+      <li><a href="index.html#first">Locations</a></li>
+    </ul><br> 
+
+    <header>
+      <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+    </header>
+    <main>
+      <section class="location">
+        <div class="city">Which city are going to visit?</div>
+        <div class="date">Search for your travel destination and click ENTER!</div>
+      </section>
+      <div class="current">
+        <div class="temp"><span></span></div>
+        <div class="weather"></div>
+        <div class="hi-low"></div>
+        
+      </div>
+    </main>
+  </div>
+  <script src="javascript/main.js"></script>
+</body>
+</html>
+
